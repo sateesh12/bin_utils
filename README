@@ -14,6 +14,8 @@ The different files and their purpose of existence is as follows in Alphabetical
 
 6. Random_Forest_Abelone_Gender_Prediction.ipynb = A logistic regression model for Gender predecition but using Random Forest.
 
+7.Titan_ML_Submission.ipynb = Titan ML challenge submission code.
+
 
 Other Utility files:
 1. snapshot.py = A small Python code to capcture screen shots from meetings without having to manually  print screen, copy to image file.
