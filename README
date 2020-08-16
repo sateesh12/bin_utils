@@ -1,3 +1,25 @@
-Author : Sateesh
-Date   : 05/Apr/2020
-Purpose: This is a collection of student projects for AI certification program of UpX.
+This is a collection of Python Jupyter notebooks which are written by me as a part of the UpX program on Machine learning course.
+
+The different files and their purpose of existence is as follows in Alphabetical order.
+
+1.AQI_Analysis.ipynb = This does linear regression model development for the Air Quality Index data-set
+
+2.Automtobile_EDA.ipynb = This is an example of EDA analysis for the Automobile data-set, the data set can be found as Autombile_data.txt
+
+3. DT_Abelone_Gender_Prediction.ipynb = Decision Tree model for the Gender prediction of Classification problem.
+
+4. Iris.ipynb = Another Linear Regression model to predict the Sepal Length with the Iris data-set
+
+5. Logistics_Regression.ipynb = A logistic linear regression for Gender prediction.
+
+6. Random_Forest_Abelone_Gender_Prediction.ipynb = A logistic regression model for Gender predecition but using Random Forest.
+
+7.Titan_ML_Submission.ipynb = Titan ML challenge submission code.
+
+
+Other Utility files:
+1. snapshot.py = A small Python code to capcture screen shots from meetings without having to manually  print screen, copy to image file.
+
+
+
+
