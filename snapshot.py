@@ -7,8 +7,8 @@ import pyautogui
 import os
 import datetime
 import uuid
-base_dir = r'c:\webex'
-base_dir = base_dir + "\\" + str(datetime.date.today())
+base_dir = r'/Users/sateeshk'
+base_dir = base_dir + "/" + str(datetime.date.today())
 print(base_dir)
 # Collect events until released
 count = 1
