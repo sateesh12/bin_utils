@@ -1,0 +1,20 @@
+#!/bin/sh
+#Author : Sateesh Kalidas
+#Date   : 23/July/2024
+#Purpose: Automate launch of RR
+#Links  : https://www.baeldung.com/ops/docker-name-already-in-use
+docker_home() {
+	PATH_TO_DOCKER=/home/inbe1e-hl2914cn/Downloads/birds-eye-view
+	echo $PATH_TO_DOCKER
+	cd $PATH_TO_DOCKER
+}
+docker_home
+sudo docker load <  bev_cuda_11.5_x86.tar.gz
+xhost +
+#Note on below
+#For the first time, this command must be docker run, subsequent runs must have docker start as this container will already exist with the name demo
+#Original command is docker run -ti --net=host --name demo -e DISPLAY=$DISPLAY --privileged -v ${HOME}/.Xauthority:/home/user/.Xauthority -w /root/ --gpus all bev_cuda_11.5_x86 /bin/bash
+echo "Starting the demo docker ...."
+sudo docker start demo 
+echo "Shelling into the demo docker" 
+sudo docker exec -it demo  /bin/bash
